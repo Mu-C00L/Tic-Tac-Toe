@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-![Tic Tac Toe](https://cdn.pixabay.com/photo/2020/06/17/19/21/play-5310799_960_720.jpg)
+<img src="https://cdn.pixabay.com/photo/2020/06/17/19/21/play-5310799_960_720.jpg" alt="Tic Tac Toe" width="700" >
 
 <br/>
 
