@@ -17,7 +17,7 @@ public class Application extends JFrame {
   }
 
   private void initUI() {
-    add(new Board());
+    add(Board.getInstance());
     
     pack();
 
