@@ -92,7 +92,7 @@ public class Board extends JPanel {
       new Thread() {
         public void run() {
           TicTacToeServer server = new TicTacToeServer();
-          server.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          server.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
           server.execute();
         }
       }.start();
