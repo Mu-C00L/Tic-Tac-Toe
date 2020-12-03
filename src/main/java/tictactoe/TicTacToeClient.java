@@ -83,8 +83,9 @@ public final class TicTacToeClient extends JFrame implements Runnable {
       // get streams for input and output
       input = new Scanner(connection.getInputStream());
       output = new Formatter(connection.getOutputStream());
-    } catch (IOException ioException) {
-      System.out.println(ioException.toString());
+    } catch (IOException e) {
+      e.printStackTrace();
+      System.exit(0);
     }
 
     // create and start worker thread for this client
